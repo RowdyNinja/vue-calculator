@@ -3,11 +3,11 @@ export default {
 
     },
     props: {
-        value: Number,
+        value: String,
     },
     data: function() {
         return {
-            buttonValue: 0,
+            buttonValue: '0',
         };
     },
     created() {
